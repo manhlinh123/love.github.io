@@ -1,0 +1,23 @@
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <title>I love you babe :3</title>
+</head>
+
+<body>
+    <div id="container">
+        <span id="text1"></span>
+        <span id="text2"></span>
+    </div>
+
+    <svg id="filters">
+        <defs>
+            <filter id="threshold">
+                <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                      0 1 0 0 0
+                      0 0 1 0 0
+                      0 0 0 255 -140" />
+            </filter>
+        </defs>
+    </svg>
+    <script src="./index.js"></script>
+</body>
